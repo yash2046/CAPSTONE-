@@ -3,7 +3,7 @@ import google.generativeai as palm
 
 app = Flask(__name__, template_folder="./templates/")
 
-Api_key = "AIzaSyDe-jrC-N0we9M6oTMiCu_rx_ipfPUa11s"
+Api_key = ""
 palm.configure(api_key=Api_key)
 
 models = [
